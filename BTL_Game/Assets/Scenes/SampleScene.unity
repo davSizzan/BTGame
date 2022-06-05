@@ -1320,6 +1320,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2296094214465080324}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &414392057 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5540865613037501473, guid: a346c1dcb208344ffab185a4342e1109,
+    type: 3}
+  m_PrefabInstance: {fileID: 7142140450142056160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &414392058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414392057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7009d2d803c2f804d9fb220686919664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherString: Player
+  damage: 1
 --- !u!1 &415243795
 GameObject:
   m_ObjectHideFlags: 0
@@ -2375,7 +2395,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 7142140450142056160}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 414392057}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72f7952c781da423089a00763d00f16d, type: 3}
@@ -2903,7 +2923,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 8104401400518740479}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1966469608}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2cf43fdb2bb64dfe8073857bcd7c702, type: 3}
@@ -66021,6 +66041,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931236786}
   m_CullTransparentMesh: 0
+--- !u!1 &1966469608 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8104401401436858595, guid: eeaaf2247a4625943b64c6e87952b113,
+    type: 3}
+  m_PrefabInstance: {fileID: 8104401400518740479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1966469609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966469608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7009d2d803c2f804d9fb220686919664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherString: Player
+  damage: 1
 --- !u!114 &1966832337 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114910999607686508, guid: e8d6a34590c5842c7ab32fb8bd99784a,
